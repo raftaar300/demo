@@ -1,0 +1,124 @@
+
+nav {
+ background-color: rgb(243, 243, 233);
+ height: 80px;
+ display: flex;
+ align-items: center;
+ width: 100%;
+
+}   
+.right{
+        display: flex;
+        justify-content: space-between;
+    
+        position: relative;
+        
+        margin-left: 5%;
+        width: 35%     }
+    
+    .centre{
+        display: inline-block;
+       
+        width: fit-content;
+        border-radius: 40px;
+        border: 2px solid black;
+        position: relative;
+        margin-left: 10%;
+        width: 40%;
+
+    }
+    
+    
+    .sea{
+        width: 100%;
+        border-radius: 40px;
+
+        height: 30px;
+        border: none;
+    
+    
+    }
+    select:focus , input:focus{
+        outline: none;
+    }
+    .Categories{
+        position: absolute;
+     right: 0px;
+        border-radius: 40px;
+        background-color: red;
+        color: white;
+        width: 35%;
+        bottom: 0px;
+        height: 100%;
+       
+    }
+    
+    
+    .lan{
+        background-color: rgba(104, 96, 96, 0.678);
+        border-radius: 20px;
+        height: 30px;
+        width: 10%;
+    
+        color: white;
+        
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    
+    .su{
+
+        flex-grow: 1;
+        flex-shrink: 1;
+        width: 10%;
+
+    }
+    
+    .lo{
+
+        flex-grow: 1;
+        flex-shrink: 1;
+        width: 10%;    }
+    
+    .si{
+        flex-grow: 1;
+        flex-shrink: 1;
+        width: 10%;    }
+    
+    .not{
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 20%;
+  top: 40%;
+  /* position: relative; */
+  /* left: 20px; */
+  /* top: 5px; */
+  position: absolute;
+  right: 10%;
+    }
+    
+    a:hover{
+        background-color: red;
+        color: white;
+       
+        border-radius: 20%;
+       
+    }
+
+.res{
+    display: none;
+}
+
+
+ @media only screen and (max-width: 800px){
+ .res{
+     display: inline-block;
+     margin-left: 1%;
+     width: 40%;
+  
+ }
+.right{
+    display: none;
+}
+
+} 

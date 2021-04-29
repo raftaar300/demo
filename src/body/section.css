@@ -1,0 +1,54 @@
+.section {
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .filters > ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 0;
+    padding: 0;
+  }
+  
+  .filter {
+    list-style: none;
+    padding: 1%;
+    margin: 0.5%;
+    border-radius: 24px;
+    white-space: nowrap;
+  }
+  
+  .filter:hover
+ {
+    background-color: red;
+    color: white;
+    list-style: none;
+   
+    border-radius: 24px;
+    white-space: nowrap;
+  }
+  
+
+  
+  .filter > a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .empty_div {
+    height: 600px;
+    background-color: rgb(200 199 199);
+    border-radius: 32px;
+    margin: auto;
+    width: 97%;
+  }
+  @media only screen and (max-width: 1300px){
+      .res{
+        display: block;
+        justify-content: left;
+      }
+    .filters{
+      display: none;
+    }
+
+   } 
